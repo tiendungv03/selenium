@@ -1,0 +1,132 @@
+[2026-01-14T15:24:49.011758716] --- BẮT ĐẦU TEST CASE: Add Employee ---
+[2026-01-14T15:24:49.012370146] Đã đọc tài khoản từ file: Admin
+[2026-01-14T15:24:50.252921851] Đăng nhập thành công.
+[2026-01-14T15:24:56.087103191] Đã chuyển đến trang PIM.
+[2026-01-14T15:24:59.286273435] Đã bấm nút +Add.
+[2026-01-14T15:25:00.650498051] Đã điền thông tin: Tien Dung - ID: NV1768379099287
+[2026-01-14T15:31:49.031479842] --- BẮT ĐẦU TEST CASE: Add Employee ---
+[2026-01-14T15:31:49.032153617] Đã đọc tài khoản từ file: Admin
+[2026-01-14T15:31:50.090279169] Đăng nhập thành công.
+[2026-01-14T15:31:57.685396671] Đã chuyển đến trang PIM.
+[2026-01-14T15:32:03.032050897] Đã bấm nút +Add.
+[2026-01-14T15:32:04.659661419] Đã điền thông tin: Tien Dung - ID: NV1768379523032
+[2026-01-14T15:35:48.947314330] --- BẮT ĐẦU TEST CASE: Add Employee ---
+[2026-01-14T15:35:48.947946225] Đã đọc tài khoản từ file: Admin
+[2026-01-14T15:35:50.493915339] Đăng nhập thành công.
+[2026-01-14T15:35:57.120004321] Đã chuyển đến trang PIM.
+[2026-01-14T15:35:59.152274606] Đã bấm nút +Add.
+[2026-01-14T15:36:00.119409490] Đã điền thông tin: Tien Dung - ID: NV1768379759153
+[2026-01-14T15:36:00.689327422] Đã bấm nút Save.
+[2026-01-14T15:36:11.040569066] FAILED: Không thấy thông báo thành công.
+[2026-01-14T15:36:11.040713078] --- KẾT THÚC TEST CASE ---
+[2026-01-14T15:39:58.385957405] --- BẮT ĐẦU TEST CASE: Add Employee ---
+[2026-01-14T15:39:58.386721107] Đã đọc tài khoản từ file: Admin
+2026-01-14 16:07:51 [main] INFO  BaseTest - -------------- KHỞI TẠO BROWSER --------------
+2026-01-14 16:08:00 [main] INFO  BaseTest - Đã mở trang: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-14 16:08:10 [main] INFO  BasePage - Set text 'Admin' to element: By.name: username
+2026-01-14 16:08:20 [main] INFO  BasePage - Set text 'admin123' to element: By.name: password
+2026-01-14 16:08:30 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+2026-01-14 16:08:57 [main] INFO  BasePage - Clicked on element: By.xpath: //aside[@class='oxd-sidepanel']//li[2]
+2026-01-14 16:08:57 [main] INFO  BasePage - Đã vào trang PIM.
+2026-01-14 16:09:21 [main] INFO  BasePage - Clicked on element: By.xpath: //button[normalize-space()='Add']
+2026-01-14 16:09:36 [main] INFO  BasePage - Set text 'Tien' to element: By.name: firstName
+2026-01-14 16:09:46 [main] INFO  BasePage - Set text 'Dung' to element: By.name: lastName
+2026-01-14 16:09:56 [main] INFO  BasePage - Set text 'TD1487' to element: By.xpath: //label[text()='Employee Id']/parent::div/parent::div//input
+2026-01-14 16:09:56 [main] INFO  BasePage - Đang thêm nhân viên: Tien Dung - ID: TD1487
+2026-01-14 16:10:07 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+2026-01-14 16:10:13 [main] INFO  BasePage - PASSED: Đã thấy thông báo thêm mới thành công!
+2026-01-14 16:10:24 [main] INFO  BasePage - Bắt đầu xác thực nhân viên ID: TD1487
+2026-01-14 16:11:10 [main] INFO  BaseTest - Đã đóng trình duyệt.
+2026-01-14 16:11:10 [main] INFO  BaseTest - -------------- KẾT THÚC TEST CASE --------------
+2026-01-14 16:14:45 [main] INFO  BaseTest - -------------- KHỞI TẠO BROWSER --------------
+2026-01-14 16:14:56 [main] INFO  BaseTest - Đã mở trang: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-14 16:15:06 [main] INFO  BasePage - Set text 'Admin' to element: By.name: username
+2026-01-14 16:15:17 [main] INFO  BasePage - Set text 'admin123' to element: By.name: password
+2026-01-14 16:15:27 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+2026-01-14 16:15:50 [main] INFO  BasePage - Clicked on element: By.xpath: //aside[@class='oxd-sidepanel']//li[2]
+2026-01-14 16:15:50 [main] INFO  BasePage - Đã vào trang PIM.
+2026-01-14 16:16:12 [main] INFO  BasePage - Clicked on element: By.xpath: //button[normalize-space()='Add']
+2026-01-14 16:16:24 [main] INFO  BasePage - Set text 'Tien' to element: By.name: firstName
+2026-01-14 16:16:34 [main] INFO  BasePage - Set text 'Dung' to element: By.name: lastName
+2026-01-14 16:16:45 [main] INFO  BasePage - Set text 'TD3983' to element: By.xpath: //label[text()='Employee Id']/parent::div/parent::div//input
+2026-01-14 16:16:45 [main] INFO  BasePage - Đang thêm nhân viên: Tien Dung - ID: TD3983
+2026-01-14 16:16:55 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+2026-01-14 16:17:01 [main] INFO  BasePage - PASSED: Đã thấy thông báo thêm mới thành công!
+2026-01-14 16:17:11 [main] INFO  BasePage - Bắt đầu xác thực nhân viên ID: TD3983
+2026-01-14 16:17:39 [main] INFO  BasePage - Clicked on element: By.xpath: //a[normalize-space()='Employee List']
+2026-01-14 16:17:59 [main] INFO  BasePage - Set text 'TD3983' to element: By.xpath: //label[text()='Employee Id']/parent::div/parent::div//input
+2026-01-14 16:18:10 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+2026-01-14 16:18:40 [main] ERROR BasePage - FAILED: Không tìm thấy nhân viên nào trong bảng kết quả!
+2026-01-14 16:18:40 [main] INFO  BaseTest - Đã đóng trình duyệt.
+2026-01-14 16:18:40 [main] INFO  BaseTest - -------------- KẾT THÚC TEST CASE --------------
+2026-01-14 16:22:24 [main] INFO  BaseTest - -------------- KHỞI TẠO BROWSER --------------
+2026-01-14 16:22:33 [main] INFO  BaseTest - Đã mở trang: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-14 16:22:43 [main] INFO  BasePage - Set text 'Admin' to element: By.name: username
+2026-01-14 16:22:54 [main] INFO  BasePage - Set text 'admin123' to element: By.name: password
+2026-01-14 16:23:04 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+2026-01-14 16:23:25 [main] INFO  BasePage - Clicked on element: By.xpath: //aside[@class='oxd-sidepanel']//li[2]
+2026-01-14 16:23:25 [main] INFO  BasePage - Đã vào trang PIM.
+2026-01-14 16:23:47 [main] INFO  BasePage - Clicked on element: By.xpath: //button[normalize-space()='Add']
+2026-01-14 16:23:58 [main] INFO  BasePage - Set text 'Tien' to element: By.name: firstName
+2026-01-14 16:24:09 [main] INFO  BasePage - Set text 'Dung' to element: By.name: lastName
+2026-01-14 16:24:19 [main] INFO  BasePage - Set text 'TD4472' to element: By.xpath: //label[text()='Employee Id']/parent::div/parent::div//input
+2026-01-14 16:24:19 [main] INFO  BasePage - Đang thêm nhân viên: Tien Dung - ID: TD4472
+2026-01-14 16:24:29 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+2026-01-14 16:24:31 [main] INFO  BasePage - PASSED: Đã thấy thông báo thêm mới thành công!
+2026-01-14 16:24:48 [main] INFO  BasePage - Bắt đầu xác thực nhân viên ID: TD4472
+2026-01-14 16:25:13 [main] INFO  BasePage - Clicked on element: By.xpath: //a[normalize-space()='Employee List']
+2026-01-14 16:25:33 [main] INFO  BasePage - Set text 'TD4472' to element: By.xpath: //label[text()='Employee Id']/parent::div/parent::div//input
+2026-01-14 16:25:43 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+2026-01-14 16:26:35 [main] ERROR BasePage - Timeout: Không tìm thấy element By.xpath: //div[contains(@class, 'oxd-table-cell')]//div[text()='TD4472']
+2026-01-14 16:26:35 [main] ERROR BasePage - FAILED: Không tìm thấy nhân viên ID TD4472 sau khi tìm kiếm.
+2026-01-14 16:26:35 [main] ERROR BasePage - Nội dung bảng hiện tại: 
+
+2026-01-14 16:26:35 [main] INFO  BaseTest - Đã đóng trình duyệt.
+2026-01-14 16:26:35 [main] INFO  BaseTest - -------------- KẾT THÚC TEST CASE --------------
+2026-01-14 16:40:23 [main] INFO  BaseTest - -------------- KHỞI TẠO BROWSER --------------
+2026-01-14 16:40:29 [main] INFO  BaseTest - Đã mở trang: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-14 16:40:39 [main] INFO  BasePage - Set text 'Admin' to element: By.name: username
+2026-01-14 16:40:50 [main] INFO  BasePage - Set text 'admin123' to element: By.name: password
+2026-01-14 16:41:00 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+2026-01-14 16:41:24 [main] INFO  BasePage - Clicked on element: By.xpath: //aside[@class='oxd-sidepanel']//li[2]
+[2026-01-14T16:41:24.881595642] Đã vào trang PIM.
+2026-01-14 16:41:45 [main] INFO  BasePage - Clicked on element: By.xpath: //button[normalize-space()='Add']
+2026-01-14 16:42:07 [main] INFO  BasePage - Set text 'Tien' to element: By.name: firstName
+2026-01-14 16:42:17 [main] INFO  BasePage - Set text 'Dung' to element: By.name: lastName
+[2026-01-14T16:42:17.899604420] Đang thêm nhân viên: Tien Dung - ID: TD3315
+2026-01-14 16:42:28 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+[2026-01-14T16:42:30.442466430] PASSED: Thấy thông báo thành công!
+[2026-01-14T16:42:46.887181154] Bắt đầu xác thực nhân viên ID: TD3315
+2026-01-14 16:43:11 [main] INFO  BasePage - Clicked on element: By.xpath: //a[normalize-space()='Employee List']
+2026-01-14 16:43:31 [main] INFO  BasePage - Set text 'TD3315' to element: By.xpath: //label[contains(text(),'Employee Id')]/parent::div/parent::div//input
+2026-01-14 16:43:42 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+[2026-01-14T16:43:52.075721758] PASSED: Đã tìm thấy nhân viên TD3315 trong bảng!
+2026-01-14 16:43:52 [main] INFO  BaseTest - Đã đóng trình duyệt.
+2026-01-14 16:43:52 [main] INFO  BaseTest - -------------- KẾT THÚC TEST CASE --------------
+2026-01-14 16:44:18 [main] INFO  BaseTest - -------------- KHỞI TẠO BROWSER --------------
+2026-01-14 16:44:38 [main] INFO  BaseTest - Đã mở trang: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-14 16:44:49 [main] INFO  BasePage - Set text 'Admin' to element: By.name: username
+2026-01-14 16:44:59 [main] INFO  BasePage - Set text 'admin123' to element: By.name: password
+2026-01-14 16:45:09 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+2026-01-14 16:45:32 [main] INFO  BasePage - Clicked on element: By.xpath: //aside[@class='oxd-sidepanel']//li[2]
+[2026-01-14T16:45:32.730638088] Đã vào trang PIM.
+2026-01-14 16:50:17 [main] INFO  BaseTest - -------------- KHỞI TẠO BROWSER --------------
+2026-01-14 16:50:38 [main] INFO  BaseTest - Đã mở trang: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-01-14 16:50:49 [main] INFO  BasePage - Set text 'Admin' to element: By.name: username
+2026-01-14 16:50:59 [main] INFO  BasePage - Set text 'admin123' to element: By.name: password
+2026-01-14 16:51:09 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+2026-01-14 16:51:34 [main] INFO  BasePage - Clicked on element: By.xpath: //aside[@class='oxd-sidepanel']//li[2]
+[2026-01-14T16:51:34.096172425] Đã vào trang PIM.
+2026-01-14 16:51:56 [main] INFO  BasePage - Clicked on element: By.xpath: //button[normalize-space()='Add']
+2026-01-14 16:52:20 [main] INFO  BasePage - Set text 'Tien' to element: By.name: firstName
+2026-01-14 16:52:30 [main] INFO  BasePage - Set text 'Dung' to element: By.name: lastName
+[2026-01-14T16:52:30.362465441] Đang thêm nhân viên: Tien Dung - ID: TD118
+2026-01-14 16:52:40 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+[2026-01-14T16:52:49.246729164] PASSED: Thấy thông báo thành công!
+[2026-01-14T16:53:16.070486711] Bắt đầu xác thực nhân viên ID: TD118
+2026-01-14 16:53:57 [main] INFO  BasePage - Clicked on element: By.xpath: //a[normalize-space()='Employee List']
+2026-01-14 16:54:17 [main] INFO  BasePage - Set text 'TD118' to element: By.xpath: //label[contains(text(),'Employee Id')]/parent::div/parent::div//input
+2026-01-14 16:54:27 [main] INFO  BasePage - Clicked on element: By.xpath: //button[@type='submit']
+[2026-01-14T16:54:37.522088136] PASSED: Đã tìm thấy nhân viên TD118 trong bảng!
+2026-01-14 16:54:37 [main] INFO  BaseTest - Đã đóng trình duyệt.
+2026-01-14 16:54:37 [main] INFO  BaseTest - -------------- KẾT THÚC TEST CASE --------------
